@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "DesignPatternsInDotNET\Composite.csproj", "{6903D810-17D6-4C3E-9D8C-7FF0A86A1269}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{E5F51A15-95DF-4F26-BC72-E94BFC78503F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6903D810-17D6-4C3E-9D8C-7FF0A86A1269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6903D810-17D6-4C3E-9D8C-7FF0A86A1269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6903D810-17D6-4C3E-9D8C-7FF0A86A1269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F51A15-95DF-4F26-BC72-E94BFC78503F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F51A15-95DF-4F26-BC72-E94BFC78503F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F51A15-95DF-4F26-BC72-E94BFC78503F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F51A15-95DF-4F26-BC72-E94BFC78503F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

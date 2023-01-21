@@ -9,6 +9,6 @@ namespace Composite
     // Provides common interface for Products and boxes (composite)
     internal interface IComposite
     {
-        public double CalculatePrice();
+        public double CalculateCost();
     }
 }

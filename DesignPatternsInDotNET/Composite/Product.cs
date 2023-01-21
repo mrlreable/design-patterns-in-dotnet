@@ -18,7 +18,7 @@ namespace Composite
             Price = price;
         }
 
-        public double CalculatePrice()
+        public double CalculateCost()
         {
             Console.WriteLine($"Price of product {Name}: {Price} HUF");
             return Price;

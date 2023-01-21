@@ -1,6 +1,6 @@
 ﻿using Composite;
 
-Box product = new Box();
+Box whole = new Box();
 
 Box container1 = new Box();
 Box container2 = new Box();
@@ -21,10 +21,11 @@ container2.AddChild(earbuds);
 
 container2.RemoveChild(earbuds);
 
-product.AddChild(container1);
-product.AddChild(container2);
+whole.AddChild(container1);
+whole.AddChild(container2);
+whole.AddChild(new Receipt());
 
-var totalPrice = product.CalculatePrice();
+var totalPrice = whole.CalculateCost();
 
 
-Console.WriteLine($"Total price for product: {totalPrice}");
+Console.WriteLine($"Total price for product: {totalPrice} HUF");

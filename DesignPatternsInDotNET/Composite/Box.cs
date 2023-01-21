@@ -15,7 +15,7 @@ namespace Composite
             Children= new List<IComposite>();
         }
 
-        public double CalculatePrice()
+        public double CalculateCost()
         {
             double price = 0;
 
@@ -23,7 +23,7 @@ namespace Composite
 
             foreach (var child in Children)
             {
-                price += child.CalculatePrice();
+                price += child.CalculateCost();
             }
 
             return price;
