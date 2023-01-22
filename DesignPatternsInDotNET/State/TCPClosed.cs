@@ -11,7 +11,6 @@ namespace State
         public void HandleConnection(TCPPort context)
         {
             Console.WriteLine($"Cannot connect to port {context.PortNumber}. Port is closed...");
-            context._tcpState = new TCPOpen();
         }
     }
 }
