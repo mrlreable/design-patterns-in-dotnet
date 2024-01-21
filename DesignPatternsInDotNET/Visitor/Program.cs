@@ -29,4 +29,5 @@ nodes.Add(new Industry
 foreach (var node in nodes)
 {
     node.Accept(new ExportToJsonVisitor());
+    node.Accept(new ExportToXmlVisitor());
 }

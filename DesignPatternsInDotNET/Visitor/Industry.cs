@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Visitor
+﻿namespace Visitor
 {
-    internal class Industry : INode
+    public class Industry : INode
     {
         public string Name { get; set; }
         public string Sector { get; set; }
